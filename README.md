@@ -1,5 +1,5 @@
 # RoboCup2021 Rescue Simulation Virtual Robot League
-This repository includes a robot model and field models used in RoboCup World Champion Ship 2021 Rescue Simulation Virtual Robot League(RC20219RVRL).  
+This repository includes a robot model and field models used in RoboCup World Champion Ship 2021 Rescue Simulation Virtual Robot League(RC2021RVRL).  
 You can find other records of the RC2021RVRL game in [wiki page of this repository](https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2021RVRL_Demo/wiki).
 And you can find important information like the latest rule in [the rescue virtual robot league wiki page](https://rescuesim.robocup.org/).  
 
@@ -45,27 +45,27 @@ Then goto the next section "CHECK THE INSTALLATION".
     $ . setup.bash  
     $ roslaunch rvrl_setup YOU_SELECTED_ONE.launch  
 
-### Pre liminary 1 (Sample world from 2019: Day 1)
+### Pre liminary 1 (Sample world from RVRL2019: Day 1)
 * pre1-1_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Pre liminary 2 (Sample world from 2019: Day 1)
+### Pre liminary 2 (Sample world from RVRL2019: Day 1)
 * pre1-2_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Pre liminary 3 (Sample world from 2019: Day 2)
+### Pre liminary 3 (Sample world from RVRL2019: Day 2)
 * pre2-1_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Pre liminary 4 (Sample world from 2019: Day 2)
+### Pre liminary 4 (Sample world from RVRL2019: Day 2)
 * pre2-2_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Semi Final 1 (Sample world from 2019: Day 3)
+### Semi Final 1 (Sample world from RVRL2019: Day 3)
 * semi-1-{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
@@ -73,12 +73,12 @@ Those robot names are changed for the each team programs.
 * two-levels.launch   
 This is a practice field for the slope.  
 
-### Semi Final 2 (Sample world from 2019: Day 3)
+### Semi Final 2 (Sample world from RVRL2019: Day 3)
 * semi-2-{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Final (Sample world from 2019: Day 4)
+### Final (Sample world from RVRL2019: Day 4)
 * final-1-{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
