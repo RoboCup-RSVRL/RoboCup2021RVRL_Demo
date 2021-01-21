@@ -1,6 +1,6 @@
-# RoboCup2019 Rescue Simulation Virtual Robot League
-This repository includes a robot model and field models used in RoboCup World Champion Ship 2019 Rescue Simulation Virtual Robot League(RC2019RVRL).  
-You can find other records of the RC2019RVRL game in [wiki page of this repository](https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2019RVRL_Demo/wiki).
+# RoboCup2021 Rescue Simulation Virtual Robot League
+This repository includes a robot model and field models used in RoboCup World Champion Ship 2021 Rescue Simulation Virtual Robot League(RC20219RVRL).  
+You can find other records of the RC2021RVRL game in [wiki page of this repository](https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2021RVRL_Demo/wiki).
 And you can find important information like the latest rule in [the rescue virtual robot league wiki page](https://rescuesim.robocup.org/).  
 
 ##  INSTALLATION BASICS   
@@ -21,8 +21,8 @@ Check the network folder and setup your computer based on the corresponding file
 ## SETUP THE SERVER PROGRAM  
 Download this repo. and some additional hector packages.  
 
-    $ git clone https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2019RVRL_Demo  
-    $ cd ~/RoboCup2019RVRL_Demo/src  
+    $ git clone https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2021RVRL_Demo  
+    $ cd ~/RoboCup2021RVRL_Demo/src  
     $ rosinstall src /opt/ros/melodic  
 
 Remove a conflicting package.  
@@ -41,31 +41,31 @@ Then goto the next section "CHECK THE INSTALLATION".
 
     At terminal 1:  
 
-    $ cd ~/RoboCup2019RVRL_Demo  
+    $ cd ~/RoboCup2021RVRL_Demo  
     $ . setup.bash  
     $ roslaunch rvrl_setup YOU_SELECTED_ONE.launch  
 
-### Pre liminary 1 (Day 1)
+### Pre liminary 1 (Sample world from 2019: Day 1)
 * pre1-1_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Pre liminary 2 (Day 1)
+### Pre liminary 2 (Sample world from 2019: Day 1)
 * pre1-2_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Pre liminary 3 (Day 2)
+### Pre liminary 3 (Sample world from 2019: Day 2)
 * pre2-1_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Pre liminary 4 (Day 2)
+### Pre liminary 4 (Sample world from 2019: Day 2)
 * pre2-2_{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Semi Final 1 (Day 3)
+### Semi Final 1 (Sample world from 2019: Day 3)
 * semi-1-{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
@@ -73,12 +73,12 @@ Those robot names are changed for the each team programs.
 * two-levels.launch   
 This is a practice field for the slope.  
 
-### Semi Final 2 (Day 3)
+### Semi Final 2 (Sample world from 2019: Day 3)
 * semi-2-{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
 
-### Final (Day 4)
+### Final (Sample world from 2019: Day 4)
 * final-1-{ atr | eslam | mrl }.launch  
 Three launch files are same except robot names.  
 Those robot names are changed for the each team programs.  
@@ -97,7 +97,7 @@ Before tring below, you should check the robot name by using 'rostopic list'.
 
     At terminal 2:  
 
-    $ cd ~/RoboCup2019RVRL_Demo  
+    $ cd ~/RoboCup2021RVRL_Demo  
     $ . setup.bash  
     $ roslaunch hector_quadrotor_teleop logitech_gamepad.launch robot:=robot1  
     (Push button4, to start motors)  
@@ -106,7 +106,7 @@ Before tring below, you should check the robot name by using 'rostopic list'.
 
     At terminal 2:  
 
-    $ cd ~/RoboCup2019RVRL_Demo  
+    $ cd ~/RoboCup2021RVRL_Demo  
     $ . setup.bash  
     $ roslaunch rvrl_setup sample_joy_and_teleop_crawler.launch gc_bsgp1601:=true robot_name:=robot1  
     (You can select your game controller from 4 types, details in the launch file.)  
@@ -115,7 +115,7 @@ Before tring below, you should check the robot name by using 'rostopic list'.
 
     At terminal 2:  
 
-    $ cd ~/RoboCup2019RVRL_Demo  
+    $ cd ~/RoboCup2021RVRL_Demo  
     $ . setup.bash  
     $ roslaunch rvrl_setup sample_centaur_joint_trajectory.launch robot_name:=robot5  
 
@@ -123,16 +123,13 @@ Before tring below, you should check the robot name by using 'rostopic list'.
 
     $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=/robot5/cmd_vel  
 
-### About WCS  
-Please read the documents of [WCS](https://github.com/taherahmadi/WCS/blob/master/README.md) and [WCS sample package](https://github.com/taherahmadi/WCS/blob/master/sample_package/README.md).  
-
 ### For finding robots in a huge field  
 Waiting for finishing spawning all robots, run the next script.  
 You can see each robot name in large font size. 
 
     At another terminal:  
 
-    $ cd ~/RoboCup2019RVRL_Demo  
+    $ cd ~/RoboCup2021RVRL_Demo  
     $ . robot_marker_on  
 
-Edited: 6th July 2019  
+Edited: 21 jAN. 2021  
