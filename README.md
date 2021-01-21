@@ -1,6 +1,7 @@
 # RoboCup2021 Rescue Simulation Virtual Robot League
 This repository includes a robot model and field models used in RoboCup World Champion Ship 2021 Rescue Simulation Virtual Robot League(RC2021RVRL).  
-You can find other records of the RC2021RVRL game in [wiki page of this repository](https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2021RVRL_Demo/wiki).
+In 2021, we will have the competition remotely, so we are preparing the competition environment with the Construct's cloud virtual computing service "the ROSject (the ROS Deveropment Studio)".  
+You can find the detailed documents of the RC2021RVRL game in [wiki page of this repository](https://github.com/RoboCupRescueVirtualRobotLeague/RoboCup2021RVRL_Demo/wiki).
 And you can find important information like the latest rule in [the rescue virtual robot league wiki page](https://rescuesim.robocup.org/).  
 
 ##  INSTALLATION BASICS   
